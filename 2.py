@@ -9,6 +9,8 @@ from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
 from langchain_community.embeddings import HuggingFaceEmbeddings
 
+import os
+
 app = FastAPI(title="Rursee-Schifffahrt Chatbot API")
 
 ANTHROPIC_KEY = os.environ.get("ANTHROPIC_KEY")
