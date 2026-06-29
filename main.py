@@ -24,8 +24,9 @@ chunks = splitter.split_text(text)
 docs = [Document(page_content=chunk) for chunk in chunks]
 
 embeddings = HuggingFaceEmbeddings(
-    model_name="sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+    model_name="sentence-transformers/all-MiniLM-L6-v2"
 )
+
 vectorstore = Chroma.from_documents(
     documents=docs,
     embedding=embeddings,
