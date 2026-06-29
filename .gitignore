@@ -1,0 +1,6 @@
+__pycache__/
+.ipynb_checkpoints/
+chroma_db/
+*.ipynb
+rursee_clean.jsonl
+rursee_data.jsonl

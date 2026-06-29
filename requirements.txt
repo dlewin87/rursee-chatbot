@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+langchain-anthropic
+langchain-chroma
+langchain-text-splitters
+langchain-community
+langchain-core
+chromadb
+sentence-transformers
